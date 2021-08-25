@@ -21,8 +21,8 @@ artist_id varchar, year int, duration decimal)""")
 artist_table_create = ("""CREATE TABLE IF NOT EXISTS artists (artist_id varchar PRIMARY KEY, name varchar, \
 location varchar, latitude decimal, longitude decimal);""")
 
-time_table_create = ("""CREATE TABLE IF NOT EXISTS time (start_time time PRIMARY KEY, hour int, day int, week int, \
-month int, year int, weekday int);""")
+time_table_create = ("""CREATE TABLE IF NOT EXISTS time (start_time time PRIMARY KEY, hour varchar, day varchar, week varchar, \
+month varchar, year varchar, weekday varchar);""")
 
 # INSERT RECORDS
 
